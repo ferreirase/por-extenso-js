@@ -6,7 +6,7 @@
 
 1. Tenha baixado e configurado o Docker e Docker Compose. 
 2. Clone o repositório do GitHub(git clone https://github.com/ferreirase/por-extenso-js).
-3. Dentro da pasta do projeto, rode no terminal "npm install" e logo depois "docker-compose up".
+3. Dentro da pasta do projeto, rode no terminal "docker build -t certi . " e logo depois "docker run -p 3333:3333 -d certi".
 4. Acesse seu localhost:porta/valor para testar a API. 
 Obs: A porta está indicada no arquivo de configuração(nesse caso, 3333 do docker e do seu servidor). 
 
