@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Algoritmo que recebe um número (inteiro positivo ou negativo e dentro do range(-99999 - 99999)) e retorna sua nomenclatura por extenso no idioma PT-BR. 
 
-You can use the [editor on GitHub](https://github.com/ferreirase/Por_Extenso-JS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Requisitos e passos para rodar o projeto na sua máquina: 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+1. Tenha baixado o Docker e Docker Compose. 
+2. Clone o repositório do GitHub(git clone https://github.com/ferreirase/por-extenso-js).
+3. Dentro da pasta do projeto, rode no terminal "docker-compose up".
+4. Acesse seu localhost:porta/valor para testar a API. 
+Obs: A porta está indicada no arquivo de configuração(nesse caso, 3333 do docker e do seu servidor). 
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Suporte e Contato
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ferreirase/Por_Extenso-JS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Para qualquer problema na API, contatar no e-mail: phaell.anderson09@gmail.com
