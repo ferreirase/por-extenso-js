@@ -69,4 +69,4 @@ class NumberController{
 }
 
 
-export default new NumberController();
+module.exports = new NumberController();

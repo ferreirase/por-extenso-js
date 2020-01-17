@@ -1,6 +1,6 @@
-import Router from 'express';
-import NumberController from '../app/controllers/porExtenso';
-import Middleware from '../app/middlewares/middleware';
+const Router = require('express');
+const NumberController = require('../app/controllers/porExtenso');
+const Middleware = require('../app/middlewares/middleware');
 
 const routes = new Router();
 
@@ -12,4 +12,4 @@ routes.get('/', (req, res) => {
 routes.get('/:numero', Middleware, NumberController.convertePorExtenso);
 
 
-export default routes;
+module.exports =  routes;

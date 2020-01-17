@@ -1,6 +1,6 @@
-import express from 'express';
-import routes from './routes/main.routes';
-import bodyParser from 'body-parser';
+const express = require('express');
+const routes = require('./routes/main.routes');
+const bodyParser = require('body-parser');
 
 class App{
   constructor(){
@@ -19,4 +19,4 @@ class App{
   }
 }
 
-export default new App().server;
+module.exports =  new App().server;

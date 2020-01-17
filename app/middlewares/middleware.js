@@ -1,7 +1,7 @@
 //Middleware de validação do número recebido
 //Primeiro verifica se é um número e depois verifica se é um inteiro
 
-export default (req, res, next) => {
+module.exports = (req, res, next) => {
   const numero = (req.params.numero);
 
   if(isNaN(numero) || (numero % 1 !== 0)){
