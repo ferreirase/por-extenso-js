@@ -4,9 +4,9 @@
 
 ### Requisitos e passos para rodar o projeto na sua máquina: 
 
-1. Tenha baixado o Docker e Docker Compose. 
+1. Tenha baixado e configurado o Docker e Docker Compose. 
 2. Clone o repositório do GitHub(git clone https://github.com/ferreirase/por-extenso-js).
-3. Dentro da pasta do projeto, rode no terminal "docker-compose up".
+3. Dentro da pasta do projeto, rode no terminal "npm install" "docker-compose up".
 4. Acesse seu localhost:porta/valor para testar a API. 
 Obs: A porta está indicada no arquivo de configuração(nesse caso, 3333 do docker e do seu servidor). 
 
